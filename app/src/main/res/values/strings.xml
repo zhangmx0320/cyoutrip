@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cyoutrip</string>
+    <string name="title_activity_first_in">FirstInActivity</string>
+    <string name="youke">游客</string>
+</resources>
