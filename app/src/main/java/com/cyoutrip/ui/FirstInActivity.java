@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.cyoutrip.AppContext;
 import com.cyoutrip.R;
 import com.umeng.socialize.UMAuthListener;
 import com.umeng.socialize.UMShareAPI;
@@ -31,7 +32,7 @@ public class FirstInActivity extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_in);
         ButterKnife.bind(this);
-        umShareAPI=UMShareAPI.get(this);
+        umShareAPI=UMShareAPI.get(AppContext.getInstance());
     }
 
     @Override
