@@ -11,4 +11,7 @@
     <dimen name="text_padding_bottom">8dp</dimen>
 
     <dimen name="text_size_24">18dp</dimen>
+    <dimen name="edittext_padding">9dp</dimen>
+    <dimen name="edittext_paddingLeft">15dp</dimen>
+    <dimen name="edittext_textsize">18dp</dimen>
 </resources>

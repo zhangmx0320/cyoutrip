@@ -48,4 +48,18 @@
         <item name="android:paddingTop">@dimen/text_padding_top</item>
         <item name="android:paddingBottom">@dimen/text_padding_bottom</item>
     </style>
+    <style name="cy_edittext">
+        <item name="android:background">@drawable/bg_edittext_selector</item>
+        <item name="android:paddingLeft">@dimen/edittext_paddingLeft</item>
+        <item name="android:paddingTop">@dimen/edittext_padding</item>
+        <item name="android:paddingBottom">@dimen/edittext_padding</item>
+        <item name="android:textSize">@dimen/edittext_textsize</item>
+    </style>
+    <style name="cy_button">
+        <item name="android:background">@drawable/bg_button_selector</item>
+        <item name="android:paddingTop">@dimen/edittext_padding</item>
+        <item name="android:paddingBottom">@dimen/edittext_padding</item>
+        <item name="android:textSize">@dimen/edittext_textsize</item>
+        <item name="android:textColor">@color/border_focus_color</item>
+    </style>
 </resources>
