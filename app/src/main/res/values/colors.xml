@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#21c0c0</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="share_btn_border_color">#b7b5ae</color>
     <color name="white">#ffffff</color>
-    <color name="press_color">#D1D1D1</color>
+    <color name="press_color">#22b1b1</color>
     <color name="danlan">#85EAF2</color>
     <color name="transparent">#00000000</color>
     <color name="border_normal_color">#E4E4E4</color>
     <color name="border_focus_color">#24c1c1</color>
     <color name="login_bg">#f0eff5</color>
+    <color name="actionbar_background">#21c0c0</color>
+    <color name="text_select">#85EAF2</color>
+    <color name="textColor">#545151</color>
+    <color name="tabBarColor">#999999</color>
 </resources>

@@ -1,6 +1,7 @@
 package com.cyoutrip.ui;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.MediaCodec;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -36,11 +37,13 @@ public class FirstInActivity extends Activity implements View.OnClickListener{
     }
 
     @Override
-    @OnClick(R.id.ib_wx_login)
+    @OnClick({R.id.ib_wx_login,R.id.phone_login})
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.ib_wx_login:
                 this.wxLogin();break;
+            case R.id.phone_login:
+                this.phoneLogin();break;
         }
     }
 
@@ -63,5 +66,10 @@ public class FirstInActivity extends Activity implements View.OnClickListener{
                 Toast.makeText(  FirstInActivity.this, "Authorize cancel", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    private void phoneLogin(){
+        Intent intent=new Intent(this,LoginActivity.class);
+        this.startActivity(intent);
     }
 }

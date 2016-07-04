@@ -52,6 +52,7 @@
             style="@style/round_bg"
             android:src="@mipmap/weibo"/>
         <ImageButton
+            android:id="@+id/phone_login"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"

@@ -23,14 +23,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/cy_edittext"
+            android:inputType="textPassword"
             android:layout_marginTop="5dp"
             android:hint="@string/pwd"/>
         <Button
+            android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             style="@style/cy_button"
             android:text="@string/login"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:descendantFocusability="blocksDescendants"
+            android:paddingTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_id"/>
+            <TextView
+                android:id="@+id/reg_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/text_selector"
+                android:text="@string/reg_cy"/>
+        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>

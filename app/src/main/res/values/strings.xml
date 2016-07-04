@@ -5,4 +5,13 @@
     <string name="phone">手机号</string>
     <string name="pwd">密码</string>
     <string name="login">登录</string>
+    <string name="phone_login">手机登录</string>
+    <string name="no_id">没有账号？</string>
+    <string name="reg_cy">注册一个匆游</string>
+
+    <!-- Tabs -->
+    <string name="home_tab">首页</string>
+    <string name="impromptu_tour_tab">即兴游</string>
+    <string name="business_circle_tab">商旅圈</string>
+    <string name="my_tab">我的</string>
 </resources>
