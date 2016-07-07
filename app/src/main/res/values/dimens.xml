@@ -9,7 +9,7 @@
     <dimen name="btn_padding_bottom">5dp</dimen>
     <dimen name="text_padding_top">8dp</dimen>
     <dimen name="text_padding_bottom">8dp</dimen>
-
+    <dimen name="primaryTextSize">18dp</dimen>
     <dimen name="text_size_24">18dp</dimen>
     <dimen name="edittext_padding">9dp</dimen>
     <dimen name="edittext_paddingLeft">15dp</dimen>

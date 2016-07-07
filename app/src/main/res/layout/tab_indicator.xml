@@ -10,7 +10,7 @@
         android:id="@+id/iv_icon"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:src="@mipmap/ic_home_black_24dp"
+        android:src="@mipmap/home_activie"
         android:layout_centerHorizontal="true"/>
 
     <TextView
@@ -20,6 +20,6 @@
         android:layout_below="@id/iv_icon"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:textColor="@color/tabBarColor"
+        android:textColor="@drawable/tab_text_selector"
         android:textSize="12sp" />
 </RelativeLayout>

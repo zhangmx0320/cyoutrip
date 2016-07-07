@@ -1,6 +1,7 @@
 package com.cyoutrip.ui;
 
 import android.graphics.drawable.Drawable;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,20 +14,23 @@ import com.cyoutrip.base.BaseActivity;
 import com.cyoutrip.widget.MyFragmentTabHost;
 
 import butterknife.Bind;
+import butterknife.ButterKnife;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Bind(android.R.id.tabhost)
     MyFragmentTabHost mTabHost;
 
     @Override
-    protected int getLayoutId() {
-        return R.layout.activity_main;
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+        this.initView();
     }
 
-    @Override
+
     protected void initView() {
-        super.initView();
         mTabHost.setup(this,getSupportFragmentManager(),R.id.realtabcontent);
         this.initTabs();
     }

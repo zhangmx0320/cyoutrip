@@ -15,4 +15,6 @@
     <color name="text_select">#85EAF2</color>
     <color name="textColor">#545151</color>
     <color name="tabBarColor">#999999</color>
+    <color name="tabBarActiveColor">#21c0c0</color>
+    <color name="tabHostBg">#F6F6F6</color>
 </resources>

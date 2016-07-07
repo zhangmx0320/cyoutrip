@@ -21,6 +21,7 @@ public class BaseActivity extends AppCompatActivity  implements View.OnClickList
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        if(this.getSupportActionBar()!=null) this.getSupportActionBar().hide();
         setContentView(getLayoutId());
         mActionBar = getSupportActionBar();
         if (hasActionBar()) {

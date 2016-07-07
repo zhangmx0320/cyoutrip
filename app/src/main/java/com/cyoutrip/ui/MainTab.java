@@ -1,6 +1,7 @@
 package com.cyoutrip.ui;
 
 import com.cyoutrip.R;
+import com.cyoutrip.fragment.GoTripFragment;
 import com.cyoutrip.fragment.HomeFragment;
 
 
@@ -14,11 +15,11 @@ public enum MainTab {
     HOME(0, R.string.home_tab, R.drawable.tab_icon_home,
             HomeFragment.class),
 
-    TOUR(0, R.string.impromptu_tour_tab, R.mipmap.ic_home_black_24dp,
+    TOUR(0, R.string.impromptu_tour_tab, R.drawable.tab_icon_go_trip,
+            GoTripFragment.class),
+    CIRCLE(0, R.string.business_circle_tab, R.drawable.tab_icon_trip_circle,
             HomeFragment.class),
-    CIRCLE(0, R.string.business_circle_tab, R.mipmap.ic_home_black_24dp,
-            HomeFragment.class),
-    MY(0, R.string.my_tab, R.mipmap.ic_home_black_24dp,
+    MY(0, R.string.my_tab, R.drawable.tab_icon_my,
             HomeFragment.class);
 
     private int idx;
